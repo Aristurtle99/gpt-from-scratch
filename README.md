@@ -13,8 +13,8 @@ text that looks like Shakespeare.
 
 ## Progress
 
-- [ ] 1. Data, tokenizer, batches *(in progress: character tokenizer and `encode`/`decode` done)*
-- [ ] 2. Bigram model trains
+- [x] 1. Data, tokenizer, batches
+- [ ] 2. Bigram model trains *(in progress: forward pass done, logits shape `(4, 8, 65)`)*
 - [ ] 3. Single-head self-attention
 - [ ] 4. Full Transformer block (multi-head attention, feed-forward, residuals, LayerNorm)
 - [ ] 5. Scaled-up model trained
