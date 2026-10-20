@@ -14,7 +14,7 @@ text that looks like Shakespeare.
 ## Progress
 
 - [x] 1. Data, tokenizer, batches
-- [ ] 2. Bigram model trains *(in progress: forward pass done, logits shape `(4, 8, 65)`)*
+- [x] 2. Bigram model trains (`bigram.py`: train/val loss ~2.47 / ~2.49)
 - [ ] 3. Single-head self-attention
 - [ ] 4. Full Transformer block (multi-head attention, feed-forward, residuals, LayerNorm)
 - [ ] 5. Scaled-up model trained
@@ -24,6 +24,7 @@ text that looks like Shakespeare.
 | File | What it is |
 |---|---|
 | `gpt_dev.ipynb` | Main notebook, where the code gets written step by step |
+| `bigram.py` | Clean script version of the bigram model: trains, prints train/val loss, generates text |
 | `data/input.txt` | Tiny Shakespeare dataset |
 | `KARPATHY_LOG.md` | Notes for each chapter: key ideas, tensor shapes, confusions and how I resolved them |
 | `PROTOCOL.md` | How I work through each chapter (preview, watch, predict, check, teach-back, log) |
